@@ -3,8 +3,8 @@ name: after_tests
 on:
   workflow_run:
     workflows: [run_tests]
-    types:
-      - completed
+    types: [completed]
+    branches: [dev]
 
 
 jobs:
