@@ -12,4 +12,11 @@ jobs:
 
       - name: Run tests
         run: echo "ran tests"
+  
+  another_tests:
+    runs-on: ubuntu-latest
+    if: true
+    steps:
+      - name: Run another after tests
+        run: echo "ran another tests"
 
