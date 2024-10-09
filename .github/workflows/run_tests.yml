@@ -15,7 +15,8 @@ jobs:
   
   another_tests:
     runs-on: ubuntu-latest
-    if: true
+    needs: run_tests
+    if: false
     steps:
       - name: Run another after tests
         run: echo "ran another tests"
