@@ -1,6 +1,6 @@
 name: run_tests
 
-on: workflow_call
+on: push
 
 
 jobs:
